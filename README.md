@@ -1,14 +1,28 @@
-# Project Title
+# Bowling Game
 
-This project is a base instance Django example.
+This project is a bowling game written in Python/Django
 
 ## Getting Started
+
+Clone this repo: https://github.com/sarapearce/bowling-game
+
+Most changes will be made in the api directory.
+
+To play the game:
+
+`cd bowling-game`
+`python manage.py runserver`
+
+These two commands will spin up a python server. You should be able to see the front-end at http://localhost:8000
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Python 3.7.1
+Pip
+Django (need to look up the version)
+tastypie
 
 ```
 Give examples
@@ -58,13 +72,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [Django](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Tastypie](https://maven.apache.org/) - Dependency Management
 
 ## Versioning
 
@@ -74,15 +83,12 @@ We use {Something}[SemVer](http://semver.org/) for versioning. For the versions 
 
 * **Sara Pearce** - *[Portfolio](http://sarapearce.net)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
-
+https://docs.djangoproject.com/en/2.1
 https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3
 * Hat tip to anyone whose code was used
 * Inspiration

@@ -11,13 +11,17 @@ class ScoreModelTests(TestCase):
         Some comment that further elaborates what we are testing
         """
 
-
-    def bowl_should_return_a_value_less_than_11(self):
+    def pins_should_return_a_value_less_than_11(self):
         """
         Some comment that further elaborates what we are testing
         """
 
     def cummulative_score_should_be_cummulative(self):
+        """
+        Some comment that further elaborates what we are testing
+        """
+
+    def previous_scores_should_be_for_correct_player(self):
         """
         Some comment that further elaborates what we are testing
         """
