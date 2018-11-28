@@ -11,6 +11,7 @@ Most changes will be made in the api directory.
 To play the game:
 
 `cd bowling-game`
+
 `python manage.py runserver`
 
 These two commands will spin up a python server. You should be able to see the front-end at http://localhost:8000
@@ -19,10 +20,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Python 3.7.1
-Pip
-Django (need to look up the version)
-tastypie
+Python 3.7.1 https://docs.python.org/3/
+Pip 18.1 https://pip.pypa.io/en/stable/
+Django 2.1 https://docs.djangoproject.com/en/2.1/
+Tastypie https://django-tastypie.readthedocs.io/en/latest/
 
 ```
 Give examples
@@ -68,16 +69,14 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+The environment for this project is minimal, and therefore doesn't distinguish between development and deployment environments.
 
 ## Built With
 
-* [Django](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Tastypie](https://maven.apache.org/) - Dependency Management
+* [Python 3.7](https://docs.python.org/3/) - The scripting language
+* [Django](https://docs.djangoproject.com/en/2.1/) - The web framework used
+* [Tastypie](https://django-tastypie.readthedocs.io/en/latest/) - API framework for Django
 
-## Versioning
-
-We use {Something}[SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
@@ -88,8 +87,6 @@ We use {Something}[SemVer](http://semver.org/) for versioning. For the versions 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+
 https://docs.djangoproject.com/en/2.1
 https://codeburst.io/create-a-django-api-in-under-20-minutes-2a082a60f6f3
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc

@@ -26,6 +26,15 @@ class ScoreModelTests(TestCase):
         Some comment that further elaborates what we are testing
         """
 
+    def strike_score_should_add(self):
+        """
+        Some comment that further elaborates what we are testing
+        """
+
+    def spare_score_should_add(self):
+        """
+        Some comment that further elaborates what we are testing
+        """
 
 
 
