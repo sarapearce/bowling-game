@@ -1,6 +1,6 @@
 # Bowling Game
 
-This project is a bowling game written in Python/Django
+This project is a bowling game written in Python/Django. It was written with a lean production environment in mind. 
 
 ## Getting Started
 
@@ -53,7 +53,12 @@ Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+These are basic coverage, regression tests written by the Django framework.
+https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/
+
+There are also tests in the (filename) that cover the
+Score model.
+
 
 ```
 Give an example

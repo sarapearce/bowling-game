@@ -9,10 +9,10 @@ class ApiConfig(AppConfig):
 class ScoreConfig(AppConfig):
     name = 'score'
 
-    function getPlayer(self):
+    def getPlayer(self):
         # return the value of an input??
 
-    function checkForStrikeSpare(self, turn, player, pins):
+    def checkForStrikeSpare(self, turn, player, pins):
         # find if there was a strike or spare in the previous frame
 
         # We had a strike in the last frame, adjust the score
@@ -24,7 +24,7 @@ class ScoreConfig(AppConfig):
 
         return bonus_score
 
-    function Bowl(self):
+    def Bowl(self):
         player = self.getPlayer()
         turn = int(Score.getLastTurn(player)) + 1
         previous_turn_pins = Score.getLastScore(turn, player)

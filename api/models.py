@@ -16,20 +16,23 @@ class Score(models.Model):
     player = models.CharField(max_length=200)
     created_at = models.DateTimeField(auto_now_add=True)
 
-    function getLastTurn(self, player):
+    class Meta:
+        # need to put something here
+
+    def getLastTurn(self, player):
         # get the last turn number, given the player
 
-    function getLastScore(self, turn, player):
+    def getLastScore(self, turn, player):
         # get the last score given a player
 
-    function getCummulative(self, turn, player):
+    def getCummulative(self, turn, player):
         # get the cummulative score for the previous turn
 
-    function getLastPins(self, turn, player):
+    def getLastPins(self, turn, player):
         # get the number of pins that were knocked down previous turn
 
-    function updateScore(self, turn, player, score, cummulative_score):
+    def updateScore(self, turn, player, score, cummulative_score):
         # take a score model object and update the database
 
-def __str__(self):
+    def __str__(self):
         return '%s %s' % (self.turn, self.pins, self.cummulative_score)
